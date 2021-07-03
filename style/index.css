@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+}
+.table {
+  border: 5px solid;
+  margin: 5px;
+  margin-left: 20px;
+}
+
+#game_body {
+  display: flex;
+  flex-direction: column;
+}
+.table_cell {
+  height: 50px;
+  width: 50px;
+  border: solid 2px black;
+}
+
+.score_div {
+  margin-left: 5px;
+  height: fit-content;
+  display: flex;
+}
+#startBtn {
+  width: 60px;
+  height: 30px;
+  text-align: center;
+  font-weight: 800;
+  margin-left: 25px;
+  margin-top: 5px;
+}
+#startBtn :hover {
+  background-color: green;
+  transition-duration: 0.2s;
+}
+#start_div {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-left: 15px;
+  font-size: large;
+  font-weight: 800;
+  align-items: center;
+  justify-content: center;
+}
+#score_title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: fit-content;
+  margin-left: 10px;
+  height: fit-content;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#score {
+  margin-left: 3px;
+}
+.game_div {
+  display: flex;
+  justify-content: center;
+}
