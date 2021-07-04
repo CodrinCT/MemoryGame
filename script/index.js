@@ -56,8 +56,10 @@ function compareAnswers(correctAnswers, playerResponse){
         level++;
         generateLvl(level);
         i=0;
+         if(scoreValue > 0){
+            score.style="color:green";
+        }
         },300);
-       
     }else{
         setTimeout(()=>{
         alert('Your response is wrong, try again!');
@@ -69,6 +71,9 @@ function compareAnswers(correctAnswers, playerResponse){
         correctAnswer=[];
         scoreValue -=10;
         score.innerHTML= scoreValue;
+        if(scoreValue < 0){
+            score.style="color:red";
+        }
      },300)
     }
 }

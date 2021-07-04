@@ -1,11 +1,12 @@
 body {
   margin: 0;
   padding: 0;
-  height: 100%;
+  height: 100vh;
 }
 h1 {
   display: flex;
   justify-content: center;
+  margin-top: 0;
 }
 .table {
   border: 5px solid;
@@ -29,12 +30,14 @@ h1 {
   display: flex;
 }
 #startBtn {
-  width: 60px;
-  height: 30px;
+  width: 65px;
+  height: 35px;
   text-align: center;
   font-weight: 800;
   margin-left: 25px;
   margin-top: 5px;
+  text-align: center;
+  font-size: 18px;
 }
 #startBtn :hover {
   background-color: green;
@@ -49,6 +52,9 @@ h1 {
   font-weight: 800;
   align-items: center;
   justify-content: center;
+}
+label {
+  font-size: 20px;
 }
 #score_title {
   display: flex;
