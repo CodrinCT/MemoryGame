@@ -2,11 +2,13 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
+  background-color: #5cdb95;
 }
 h1 {
-  display: flex;
-  justify-content: center;
-  margin-top: 0;
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+  color: #009688;
 }
 .table {
   border: 5px solid;
@@ -28,6 +30,7 @@ h1 {
   margin-left: 5px;
   height: fit-content;
   display: flex;
+  justify-content: center;
 }
 #startBtn {
   width: 65px;
